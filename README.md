@@ -7,6 +7,7 @@
 ### 先下载flash_attention_complete_source.zip，并上传服务器
 
 unzip flash_attention_complete_source.zip
+
 cd flash-attention
 
 #这里MAX_JOBS=1很重要，我128G 在>1都崩溃了【可以先尝试 MAX_JOBS=4；这一步会非常慢，没报错就等着。】
