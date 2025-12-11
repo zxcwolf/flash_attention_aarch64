@@ -3,8 +3,8 @@
 
 因为https://github.com/Dao-AILab/flash-attention 只有x86机器安装包，我的arm64机器无法安装。
 
-# 安装教程
-# 先下载flash_attention_complete_source.zip，并上传服务器
+## 安装教程
+### 先下载flash_attention_complete_source.zip，并上传服务器
 
 unzip flash_attention_complete_source.zip
 cd flash-attention
@@ -18,7 +18,7 @@ chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
 
-# 附上源码重新编译打包教程，以后更新使用。
+## 附上源码重新编译打包教程，以后更新使用。
 步骤 1: Git 克隆 FlashAttention 仓库
 你需要先在一台联网的机器上（或如果你的 Spark 机器可以联网）
 
