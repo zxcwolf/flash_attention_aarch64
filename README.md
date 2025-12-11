@@ -48,8 +48,8 @@ git submodule update --init --recursive
 ##Remove-Item -Path csrc\composable_kernel -Recurse -Force
 ##Remove-Item -Path csrc\cutlass -Recurse -Force
 
-##打包上传
-# 导航到父目录
+## 打包上传
+导航到父目录
 cd D:\fa_src
-# 打包整个文件夹
+打包整个文件夹
 Compress-Archive -Path .\flash-attention\ -DestinationPath .\flash_attention_complete_source.zip
